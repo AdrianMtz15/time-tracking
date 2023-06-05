@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 10%;
+}
+
+.container__header {
+    width: 250px;
+    height: 500px;
+    margin: 0;
+    margin-right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.header__card {
+    justify-self: flex-start;
+    height: 70%;
+    flex-direction: column;
+    padding-bottom: 20%;
+}
+
+.header__card img {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.header__card span {
+    margin-left: 20px;
+}
+
+.header__card span h2{
+    width: 60%;
+    font-size: 3.5rem;
+
+}
+
+#daily-btn, #weekly-btn, #monthly-btn {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.container__main {
+    width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__card {
+    width: 250px;
+    height: 230px;
+    margin: 0;
+}
+
+.card__info {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info__left-section p{
+    margin-bottom: 30px;
+}
+
+.info__left-section h2 {
+    font-size: 3.5rem;
+}
+
+.info__right-section {
+    height: auto;
+}
+
+#work, #play, #study {
+    margin-bottom: 40px;
+}
+
+#work, #play, #exercise, #social {
+    margin-right: 20px;
+}
